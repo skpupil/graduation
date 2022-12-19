@@ -1,0 +1,140 @@
+Determining if the include file sys/endian.h exists failed with the following output:
+Change Dir: /home/klx/rdma-lab/sources/AIFM/aifm/snappy/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_82c4d/fast && /usr/bin/make -f CMakeFiles/cmTC_82c4d.dir/build.make CMakeFiles/cmTC_82c4d.dir/build
+make[1]: Entering directory '/home/klx/rdma-lab/sources/AIFM/aifm/snappy/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_82c4d.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_82c4d.dir/CheckIncludeFile.c.o   -c /home/klx/rdma-lab/sources/AIFM/aifm/snappy/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/klx/rdma-lab/sources/AIFM/aifm/snappy/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/endian.h: No such file or directory
+    1 | #include <sys/endian.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_82c4d.dir/build.make:66: CMakeFiles/cmTC_82c4d.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/klx/rdma-lab/sources/AIFM/aifm/snappy/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_82c4d/fast] Error 2
+
+
+
+Determining if the include file windows.h exists failed with the following output:
+Change Dir: /home/klx/rdma-lab/sources/AIFM/aifm/snappy/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7ad9d/fast && /usr/bin/make -f CMakeFiles/cmTC_7ad9d.dir/build.make CMakeFiles/cmTC_7ad9d.dir/build
+make[1]: Entering directory '/home/klx/rdma-lab/sources/AIFM/aifm/snappy/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7ad9d.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7ad9d.dir/CheckIncludeFile.c.o   -c /home/klx/rdma-lab/sources/AIFM/aifm/snappy/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/klx/rdma-lab/sources/AIFM/aifm/snappy/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: windows.h: No such file or directory
+    1 | #include <windows.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_7ad9d.dir/build.make:66: CMakeFiles/cmTC_7ad9d.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/klx/rdma-lab/sources/AIFM/aifm/snappy/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_7ad9d/fast] Error 2
+
+
+
+Determining if the function lzo1x_1_15_compress exists in the lzo2 failed with the following output:
+Change Dir: /home/klx/rdma-lab/sources/AIFM/aifm/snappy/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fc109/fast && /usr/bin/make -f CMakeFiles/cmTC_fc109.dir/build.make CMakeFiles/cmTC_fc109.dir/build
+make[1]: Entering directory '/home/klx/rdma-lab/sources/AIFM/aifm/snappy/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fc109.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=lzo1x_1_15_compress   -o CMakeFiles/cmTC_fc109.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fc109
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc109.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=lzo1x_1_15_compress    -rdynamic CMakeFiles/cmTC_fc109.dir/CheckFunctionExists.c.o  -o cmTC_fc109  -llzo2 
+/usr/bin/ld: cannot find -llzo2
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_fc109.dir/build.make:87: cmTC_fc109] Error 1
+make[1]: Leaving directory '/home/klx/rdma-lab/sources/AIFM/aifm/snappy/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_fc109/fast] Error 2
+
+
+
+Performing C++ SOURCE FILE Test HAVE_VISUAL_STUDIO_ARCH_AVX failed with the following output:
+Change Dir: /home/klx/rdma-lab/sources/AIFM/aifm/snappy/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_dbdc2/fast && /usr/bin/make -f CMakeFiles/cmTC_dbdc2.dir/build.make CMakeFiles/cmTC_dbdc2.dir/build
+make[1]: Entering directory '/home/klx/rdma-lab/sources/AIFM/aifm/snappy/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dbdc2.dir/src.cxx.o
+/usr/bin/c++    -std=gnu++2a -fconcepts -march=native -Wno-subobject-linkage -DHAVE_VISUAL_STUDIO_ARCH_AVX   /arch:AVX -o CMakeFiles/cmTC_dbdc2.dir/src.cxx.o -c /home/klx/rdma-lab/sources/AIFM/aifm/snappy/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: /arch:AVX: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_dbdc2.dir/build.make:66: CMakeFiles/cmTC_dbdc2.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/klx/rdma-lab/sources/AIFM/aifm/snappy/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_dbdc2/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_VISUAL_STUDIO_ARCH_AVX2 failed with the following output:
+Change Dir: /home/klx/rdma-lab/sources/AIFM/aifm/snappy/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d4c0c/fast && /usr/bin/make -f CMakeFiles/cmTC_d4c0c.dir/build.make CMakeFiles/cmTC_d4c0c.dir/build
+make[1]: Entering directory '/home/klx/rdma-lab/sources/AIFM/aifm/snappy/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d4c0c.dir/src.cxx.o
+/usr/bin/c++    -std=gnu++2a -fconcepts -march=native -Wno-subobject-linkage -DHAVE_VISUAL_STUDIO_ARCH_AVX2   /arch:AVX2 -o CMakeFiles/cmTC_d4c0c.dir/src.cxx.o -c /home/klx/rdma-lab/sources/AIFM/aifm/snappy/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: /arch:AVX2: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_d4c0c.dir/build.make:66: CMakeFiles/cmTC_d4c0c.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/klx/rdma-lab/sources/AIFM/aifm/snappy/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_d4c0c/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/klx/rdma-lab/sources/AIFM/aifm/snappy/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3ef1d/fast && /usr/bin/make -f CMakeFiles/cmTC_3ef1d.dir/build.make CMakeFiles/cmTC_3ef1d.dir/build
+make[1]: Entering directory '/home/klx/rdma-lab/sources/AIFM/aifm/snappy/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3ef1d.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_3ef1d.dir/src.c.o   -c /home/klx/rdma-lab/sources/AIFM/aifm/snappy/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3ef1d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ef1d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_3ef1d.dir/src.c.o  -o cmTC_3ef1d 
+/usr/bin/ld: CMakeFiles/cmTC_3ef1d.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_3ef1d.dir/build.make:87: cmTC_3ef1d] Error 1
+make[1]: Leaving directory '/home/klx/rdma-lab/sources/AIFM/aifm/snappy/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_3ef1d/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/klx/rdma-lab/sources/AIFM/aifm/snappy/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_42ec1/fast && /usr/bin/make -f CMakeFiles/cmTC_42ec1.dir/build.make CMakeFiles/cmTC_42ec1.dir/build
+make[1]: Entering directory '/home/klx/rdma-lab/sources/AIFM/aifm/snappy/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_42ec1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_42ec1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_42ec1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42ec1.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_42ec1.dir/CheckFunctionExists.c.o  -o cmTC_42ec1  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_42ec1.dir/build.make:87: cmTC_42ec1] Error 1
+make[1]: Leaving directory '/home/klx/rdma-lab/sources/AIFM/aifm/snappy/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_42ec1/fast] Error 2
+
+
+

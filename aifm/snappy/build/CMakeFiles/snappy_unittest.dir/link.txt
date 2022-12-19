@@ -1,0 +1,1 @@
+/usr/bin/g++-9   -std=gnu++2a -fconcepts -march=native -Wno-subobject-linkage -O3 -DNDEBUG  -rdynamic CMakeFiles/snappy_unittest.dir/snappy_unittest.cc.o CMakeFiles/snappy_unittest.dir/snappy-test.cc.o  -o snappy_unittest  libsnappy.a /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2 -lz -lpthread 

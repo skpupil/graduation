@@ -1,0 +1,9 @@
+/home/klx/rdma-lab/sources/AIFM/aifm/snappy/build/CMakeFiles/install/strip.dir
+/home/klx/rdma-lab/sources/AIFM/aifm/snappy/build/CMakeFiles/install/local.dir
+/home/klx/rdma-lab/sources/AIFM/aifm/snappy/build/CMakeFiles/edit_cache.dir
+/home/klx/rdma-lab/sources/AIFM/aifm/snappy/build/CMakeFiles/test.dir
+/home/klx/rdma-lab/sources/AIFM/aifm/snappy/build/CMakeFiles/snappy_unittest.dir
+/home/klx/rdma-lab/sources/AIFM/aifm/snappy/build/CMakeFiles/install.dir
+/home/klx/rdma-lab/sources/AIFM/aifm/snappy/build/CMakeFiles/list_install_components.dir
+/home/klx/rdma-lab/sources/AIFM/aifm/snappy/build/CMakeFiles/rebuild_cache.dir
+/home/klx/rdma-lab/sources/AIFM/aifm/snappy/build/CMakeFiles/snappy.dir
